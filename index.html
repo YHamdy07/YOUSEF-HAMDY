@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spacex redesign</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="brand">
+                <a href="#">
+                    <img src="./img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="nav-right">
+                <div class="nav-links">
+                    <a href="#" class="active">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Updates</a>
+                    <a href="#">Career</a>
+                    <a href="#">Shop</a>
+                </div>
+                <div class="search">
+                    <div>
+                        <img src="./img/search.png" alt="">
+                        <input type="text" placeholder="Search">
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="hero">
+            <div class="social">
+                <div><a href="#"><i class="fab fa-facebook-f"></i></a></div>
+                <div><a href="#"><i class="fab fa-tumblr"></i></a></div>
+                <div><a href="#"><i class="fab fa-instagram"></i></a></div>
+                <div><a href="#"><i class="fab fa-youtube"></i></a></div>
+            </div>
+            <div class="cta container">
+                <div class="left-section">
+                    <h1>Space Exploration Technologies Corp. trading as SpaceX, is a private American aerospace
+                        manufacturer headquartered California.</h1>
+                    <button class="btn btn-primary">Explore Space</button>
+                </div>
+                <div class="right-section">
+                    <img src="./img/astronaut.png" alt="astronaut">
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <section class="strip">
+        <h3>Starlink Mission</h3>
+        <button class="btn btn-primary">Join Now</button>
+    </section>
+
+    <section class="planets">
+        <div class = "banner" >
+            <div class="content active">
+                <img src="img/earth5.png" alt=""class="planet-name"/>
+                <h4>
+                    <span>3rd planet</span><br><span><i>149.6 million km</i></span>
+                </h4>
+                <p>
+                    The third planet from the sun, the one, and only the Earth, is the place in the known world. 
+                    Earth is the fifth-largest planet in our galaxy. Earth, our home star, is a world unlike any other. 
+                    Earth tracks the sun once every 365 days. Since our civil years have only 365 days, we add an extra leap day every four years. 
+                    day on earth is 24 hours and the earth makes a complete orbit around the sun. Earth has one moon. 
+                </p>
+            </div>
+           <div class="carousel-box">
+            <div class="carousel">
+                <div class="carousel-item"
+                onclick="changeBg('img/earth7.jpg','img/earth8.png');">
+                    <img src="img/earth8.png" alt="">
+                </div>
+                <div class="carousel-item"
+                onclick="changeBg('img/mars6.png','img/mars3.png');">
+                    <img src="img/mars3.png" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/saturn1.png" alt="">
+                </div>
+                
+            </div>
+           </div> 
+
+        </div>
+    </section>
+    
+
+    <script
+  src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.carousel').carousel();
+      });
+      </script>
+
+
+   
+   
